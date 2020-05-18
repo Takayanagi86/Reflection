@@ -1,0 +1,70 @@
+//Default properties for all icons
+.icon {
+    background-color: black;
+    margin: auto;
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 17px;
+}
+
+//Phone icon inside the header
+.phone {
+    width: 32px;
+    max-height: 32px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transform: scale(.8);
+}
+
+//Icons for the buttons inside the header
+.fa-mouse,
+.fa-paper-plane {
+    padding-right: 20px;
+    margin-right: 10px;
+    transform: scale(1.1);
+    width: 5px;
+}
+
+//Icons inside the navigation bar and first section blocks
+.navbar .fas {
+    padding-bottom: 10px;
+}
+.fa-code {
+    color: $wd-colors;
+}
+.fa-desktop {
+    color: $it-colors;
+}
+.fa-phone-alt {
+    color: $ts-colors;
+}
+.fa-th {
+    color: $bs-colors;
+}
+.fa-signal {
+    color: $dm-colors;
+}
+.fa-shield-alt {
+    color: $cs-colors;
+}
+
+//Arrow icon for some buttons
+.fa-arrow-right {
+    color: white;
+    margin-left: 10px;
+    transform: scale(0.9);
+}
+
+//Properties for the icons inside the first section blocks
+.icon .fas {
+    transform: scale(1.5);
+    color: white;
+    margin-top: 37%;
+    margin-left: 2px;
+
+}

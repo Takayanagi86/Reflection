@@ -1,0 +1,235 @@
+
+// * {
+//   border: 1px solid red;
+// }
+body {
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+  position: relative;
+  overflow: hidden;
+}
+a {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  display: flex;
+  vertical-align: center;
+}
+li {
+  height: 100%;
+  display: flex;
+}
+#b-container {
+  overflow-x:hidden; 
+  overflow-y: scroll; 
+  height: 100vh; 
+  width:100vw;
+  position: relative;
+}
+.banner {
+  margin:209px auto 45px;
+}
+///////////////////////////////////////////
+//Header base elements
+///////////////////////////////////////////
+header button {
+  text-decoration: none;
+  color: white;
+}
+.heading {
+  background-color: white;
+  margin-right: 17px;
+}
+.navbar {
+  display: none;
+  background-color: #333645;
+  height: 99px;
+}
+
+////////////////////////////////////////////////////
+//The caption overlay for the carousel's base elements
+////////////////////////////////////////////////////
+
+figcaption {
+  width: 100%;
+  text-align: center;
+  padding-top: 270px;
+  button:hover {
+    // background-color: #e80a42;
+    // border-color: #d4093c;
+    cursor: pointer;
+  }
+}
+.main {
+  box-shadow: 0 0.3125rem 2.1875rem -10px rgba(0,0,0,0.1);
+}
+////////////////////////////////////////////////////
+//The second section of content's base elements
+////////////////////////////////////////////////////
+.second-section {
+  background-color: #333645;
+  color: white;
+  height: auto;
+  padding: 50px 15px;
+  .ss-container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 0 28px;
+    line-height: 1.1;
+  }
+  p {
+    line-height: 1.875rem;
+    margin-bottom: 25px;
+    
+  }
+  .p-bold {
+    font-weight: 600;
+  }
+  button {
+    height: auto;
+    line-height: 35px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333645;
+    border: 1px solid transparent;
+    .fas {
+      color: #333645;
+    }
+  }
+}
+////////////////////////////////////////////////////
+//The client's section base elements
+////////////////////////////////////////////////////
+.clients {
+  display:none;
+  height: 145.11px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  padding: 50px 0;
+}
+.client {
+  position: relative;
+  padding: 0 20px;
+  img {
+    max-height: 45.109px;
+    vertical-align: middle;
+  }
+  .colour,
+  .description {
+    display: none;
+  }
+}
+.client:hover {
+  cursor: pointer;
+    .black {
+      display: none;
+    }
+    .colour,
+    .description {
+      display: block;
+    }
+    .description {
+      position: absolute;
+      bottom: 100%;
+      left: -200px;
+      right: -200px;
+      text-align: center;
+      
+    }
+    .popout {
+      background-color: #333645;
+      color: #fff;
+      padding: 20px;
+      font-size: 0.875rem;
+      max-width: 260px;
+      margin: 0 auto 50px;
+      .arrow-down {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        margin-left: -36px;
+        width: 0; 
+        height: 0; 
+        border-left: 36px solid transparent;
+        border-right: 36px solid transparent;
+        border-top: 35px solid #333645;
+      }
+      h3 {
+        position: relative;
+        font-size: 1.125rem;
+        color: #fff;
+        padding-bottom: 17px;
+        margin: 0 0 11px;
+        span::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 28px;
+          height: 3px;
+          display: block;
+          background-color: #fff;
+        }
+      }
+      p {
+        font-size: 0.8125rem;
+        line-height: 1.375rem;
+        margin-bottom: 0;
+      }
+    }
+
+}
+////////////////////////////////////////////////////
+//The partner's section base elements
+////////////////////////////////////////////////////
+.partners {
+  display:none;
+  height: 88px;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.partner-list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  padding-top: 25px;
+}
+.partner {
+  position: relative;
+  padding: 0 20px;
+  img {
+    max-height: 45.109px;
+    vertical-align: middle;
+  }
+  .colour {
+    display: none;
+  }
+}
+.partner:hover {
+  cursor: pointer;
+    .black {
+      display: none;
+    }
+    .colour,
+    .description {
+      display: block;
+    }
+  }

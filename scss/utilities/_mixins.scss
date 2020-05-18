@@ -1,0 +1,200 @@
+//////////////////////////////////////////////////////////////////////////
+//Properties for the drop down bar when the navigation bar is on hover
+//////////////////////////////////////////////////////////////////////////
+
+@mixin all-nav-bar {
+    cursor: pointer;
+
+    .fa-code,
+    .fa-desktop,
+    .fa-phone-alt,
+    .fa-th,
+    .fa-signal,
+    .fa-shield-alt {
+        color: white;
+    }
+
+    .bar {
+        display: flex;
+        position: absolute;
+        z-index: 100;
+        top: 99px;
+        left: 0%;
+        margin: auto;
+        height: 45px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        @content;
+    }
+
+    ul::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 45px;
+        // width: calc((100vw - 940px) / 2);
+        right: 100%;
+    }
+
+    ul::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 45px;
+        // width: calc((100vw - 940px) / 2);
+        left: 100%;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////
+//Sets the colours for the navbar and buttons when they are hovered.
+//////////////////////////////////////////////////////////////////////////
+
+@mixin web-nav-bar {
+    background-color: $wd-block-colors;
+
+    .wd-bar {
+
+        background-color: #79539a;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #79539a;
+
+    }
+
+    ul::after {
+
+        background-color: #79539a;
+
+    }
+}
+
+@mixin it-nav-bar {
+    background-color: $it-block-colors;
+
+    .it-bar {
+
+        background-color: #286abd;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #286abd;
+
+    }
+
+    ul::after {
+
+        background-color: #286abd;
+
+    }
+}
+
+@mixin ts-nav-bar {
+    background-color: $ts-block-colors;
+
+    .ts-bar {
+
+        background-color: #bc2c28;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #bc2c28;
+
+    }
+
+    ul::after {
+
+        background-color: #bc2c28;
+
+    }
+}
+
+
+@mixin bs-nav-bar {
+    background-color: $bs-block-colors;
+
+    .bs-bar {
+
+        background-color: #526781;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #526781;
+
+    }
+
+    ul::after {
+
+        background-color: #526781;
+
+    }
+}
+
+@mixin dm-nav-bar {
+    background-color: $dm-block-colors;
+
+    .dm-bar {
+
+        background-color: #25a25a;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #25a25a;
+
+    }
+
+    ul::after {
+
+        background-color: #25a25a;
+
+    }
+}
+
+@mixin cs-nav-bar {
+    background-color: $cs-block-colors;
+
+    .cs-bar {
+
+        background-color: #de093f;
+        @content;
+    }
+
+    ul::before {
+
+        background-color: #de093f;
+
+    }
+
+    ul::after {
+
+        background-color: #de093f;
+
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////
+//Displays on and off the correct images while on hover
+//////////////////////////////////////////////////////////////////////////
+@mixin description {
+    .black {
+        display: none;
+    }
+
+    .colour {
+        display: block;
+    }
+}

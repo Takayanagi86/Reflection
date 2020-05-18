@@ -1,0 +1,99 @@
+//////////////////////////////////////////////////////////////////////////
+//Properties for the navbar
+//////////////////////////////////////////////////////////////////////////
+.navbar-ul {
+  display: flex;
+  height: 99px;
+  max-width: 940px;
+  margin: 0 auto;
+  flex-grow: 1;
+  border-left-color: rgba(255, 255, 255, 0.1);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-inline-start: 0;
+  position: relative;
+}
+
+//Properties for each of the indivdual buttons
+ .web,
+  .ts,
+  .bs,
+  .cs,
+  .dm,
+  .it {
+    display: flex;
+    width: 16.6666%;
+    background-color: #333645;
+    color: white;
+    padding: 19px 0 18px;
+    text-align: center;
+    border-left-color: rgba(0, 0, 0, 0.25);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    flex-grow: 1;
+    small {
+      text-transform: uppercase;
+      font-size: 0.625rem; 
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 0; 
+      text-transform: uppercase;
+      font-size: 1.125rem;
+      text-decoration: none;
+      line-height: 1;
+    }
+  }
+
+  //properties and mixin include for the drop down bar on hover
+  .navbar li:not(:first-child){
+    margin-left: 20px;
+  }
+  .wd-bar li,
+  .it-bar li,
+  .ts-bar li,
+  .bs-bar li,
+   .dm-bar li,
+   .cs-bar li{
+    align-items: center;
+    color: white;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .navbar .nav-btn:hover {
+    @include all-nav-bar{
+    }
+  }
+  .navbar .web-btn:hover {
+    @include web-nav-bar{
+    }
+  }
+  .navbar .it-btn:hover {
+    @include it-nav-bar{
+    }
+  }
+  .navbar .ts-btn:hover {
+    @include ts-nav-bar{
+    }
+  }
+  .navbar .bs-btn:hover {
+    @include bs-nav-bar{
+    }
+  }
+  .navbar .dm-btn:hover {
+    @include dm-nav-bar{
+    }
+  }
+  .navbar .cs-btn:hover {
+    @include cs-nav-bar{
+    }
+  }
+  

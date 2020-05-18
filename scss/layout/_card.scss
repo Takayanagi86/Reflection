@@ -1,0 +1,477 @@
+/////////////////////////////////////////////////////////
+//First section of blocks after the carousel
+/////////////////////////////////////////////////////////
+.first-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+
+  .block {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0 0.3125rem 2.1875rem rgba(0, 0, 0, 0.1);
+  }
+}
+
+.first-section a { 
+  text-decoration: none;
+  color: black;
+}
+
+.first-section h2 {
+  font-size: 1.125rem;
+  padding-bottom: 10px;
+  margin: 0 0 11px;
+  letter-spacing: .4px;
+  font-weight: normal;
+
+  ::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: black;
+    color: black;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+  }
+}
+
+.line {
+  content: '';
+  display: block;
+  background-color: black;
+  color: black;
+  margin: auto;
+  width: 28px;
+  height: 3px;
+}
+
+.first-section p {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  padding: 0 15px;
+}
+
+.first-section .fs-btn {
+  display: inline-block;
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+}
+
+.first-section :hover {
+  .line {
+    background-color: white;
+  }
+}
+// Properties of each of the individual blocks
+.wd-block,
+.it-block,
+.ts-block,
+.bs-block,
+.dm-block,
+.cs-block {
+  max-width: 720px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 30px;
+  color: black;
+}
+
+
+.wd-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $wd-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $wd-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $wd-block-colors;
+    }
+  }
+}
+
+.it-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $it-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $it-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $it-block-colors;
+    }
+  }
+}
+
+.ts-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $ts-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $ts-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $ts-block-colors;
+    }
+  }
+}
+
+.bs-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $bs-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $bs-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $bs-block-colors;
+    }
+  }
+}
+
+.dm-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $dm-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $dm-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $dm-block-colors;
+    }
+  }
+}
+
+.cs-block {
+
+  .icon,
+  .fs-btn {
+    background-color: $cs-block-colors;
+    color: white;
+  }
+  &:hover {
+    background-color: $cs-block-colors;
+  
+    p,
+    h2 {
+      color: white;
+    }
+  
+    .icon,
+    .fs-btn,
+    .fas {
+      background-color: white;
+      color: $cs-block-colors;
+    }
+  }
+}
+/////////////////////////////////////////////////////////
+//Second section of blocks before the footer
+/////////////////////////////////////////////////////////
+.art-bar {
+  box-shadow: 0 0.3125rem 2.1875rem rgba(0, 0, 0, 0.1);
+}
+
+.art-bar div {
+  display: block;
+  position: relative;
+  color: #333645;
+  height: 104px;
+  margin-top: 0;
+  margin-left: 15px;
+
+  h2 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-top: 40px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  ::after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+    width: 70.33px;
+
+  }
+}
+
+.art-bg {
+  padding: 50px 15px;
+}
+
+.bar {
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+}
+
+.article-section .img {
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+}
+
+.art-container {
+  display: block;
+  border-radius: 0 0 3px 3px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 30px;
+
+  .btn {
+    background-color: #4183d7;
+    color: white;
+    border: 1px solid transparent;
+  }
+}
+
+.art-box {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+//Properties for the tooltip in the top right corner of the image
+.article-tooltip {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: #fff;
+  background-color: #333645;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  line-height: 1.438rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333645;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  max-width: 130px;
+  max-height: 50px;
+  margin: 0 auto 50px;
+  z-index: 2;
+  top: -49px;
+  right: 1px;
+  text-align: center;
+  overflow: visible;
+
+  .mini-arrow-down {
+    display: none;
+    position: absolute;
+    bottom: -6px;
+    left: 93%;
+    margin-left: -36px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #333645;
+  }
+}
+
+.article-tooltip:hover {
+
+  +.tooltip,
+  +.tooltip .mini-arrow-down {
+    display: block;
+  }
+}
+// Properties of each of the individual blocks
+.careers-block {
+  position: relative;
+  margin-bottom: 30px;
+
+  .article-tooltip,
+  .btn {
+    background-color: #4183d7;
+  }
+
+  .btn:hover {
+    background-color: #2a6ec6;
+    border-color: #2665b5;
+    cursor: pointer;
+  }
+
+  .bot-art-sec a {
+    color: #4183d7;
+  }
+}
+
+.insights-block {
+  position: relative;
+  margin-bottom: 30px;
+
+  .article-tooltip,
+  .btn {
+    background-color: #67809f;
+  }
+
+  .btn:hover {
+    background-color: #566c88;
+    border-color: #4e627b;
+    cursor: pointer;
+  }
+
+  .bot-art-sec a {
+    color: #67809f;
+  }
+}
+
+.news-block {
+  position: relative;
+
+  .tooltip {
+    .mini-arrow-down {
+      left: 100%;
+    }
+  }
+
+  .article-tooltip,
+  .btn {
+    background-color: #926fb1;
+  }
+
+  .btn:hover {
+    background-color: #7e57a0;
+    border-color: #735093;
+    cursor: pointer;
+  }
+
+  .bot-art-sec a {
+    color: #926fb1;
+  }
+}
+//Properties for the bottom part of the article section
+.bot-art-sec h3 {
+  margin: 0px;
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  :hover {
+    text-decoration: underline;
+  }
+}
+
+.bot-art-sec p {
+  line-height: 1.375rem;
+  font-size: 0.8125rem;
+  margin-bottom: 25px;
+  color: #666;
+  letter-spacing: .4px;
+}
+
+.posted-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  display: flex;
+
+  img {
+    margin: 0 20px 0 15px;
+    border-radius: 50%;
+  }
+
+  .posted-p-bold {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333645;
+  }
+
+  .posted-p-date {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #666;
+  }
+}

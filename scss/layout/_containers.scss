@@ -1,0 +1,279 @@
+////////////////////////////////////////////////
+//Containers for the header logo and buttons
+////////////////////////////////////////////////
+.container {
+    display: flex;
+    margin: 0 15px;  
+    img:hover {
+        cursor: pointer;
+    }
+}
+.selection {
+   display: flex;
+   justify-content: right;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   img:hover {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    }
+    .support-btn-li {
+        :hover {
+            background-color: #2a6ec6;
+            border-color: #2665b5;
+            cursor: pointer;
+          }
+    }
+    .contact-btn-li {
+        :hover {
+            background-color: #84858f;
+            border-color: #797a85; 
+            cursor: pointer;
+        }
+    }
+    .menu-btn-li {
+        :hover {
+            background-color: #22242e;
+            border-color: #191a22;
+            cursor: pointer;
+          }
+          .burger:hover {
+            background-color: white;
+        }
+    }
+}
+
+////////////////////////////////////////////////////
+//Testing for the javascript on-scroll header
+////////////////////////////////////////////////////
+#myHeader {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+.main-pic {
+  margin-top: 110px;
+}
+
+////////////////////////////////////////////////
+//Container for the sidebar
+////////////////////////////////////////////////
+
+
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 350px;
+    height: 100%;
+    background: #333645;
+    overflow: auto;
+    a {
+        height: 16px;
+        width: 310px;
+        padding: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+.sb-flex {
+    display: flex;
+    flex-direction: column;
+    ul {
+        flex-direction: column;
+        li {
+            flex-direction: column;
+        }
+    }
+}
+.training, .our-company, .our-work, .our-knowledge {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.25); 
+}
+.training:hover .highlight{background-color:rgba(255,255,255,0.05)}
+.our-company:hover .highlight{background-color:rgba(255,255,255,0.05)}
+.our-work:hover .highlight{background-color:rgba(255,255,255,0.05)}
+.our-knowledge:hover .highlight{background-color:rgba(255,255,255,0.05)}
+
+.menu a{
+    font-size: 0.875rem;
+    height: 20px;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    background-color: rgba(0,0,0,0.25);
+    
+}
+.menu a::before {
+    
+    content: "\00BB";
+        padding-right: 15px;
+}
+.menu li {
+    border-top: 1px solid rgba(0,0,0,0.45);
+}
+
+
+.sb-class {
+    position: absolute;
+    right: 275px;
+    width: 100%;
+}
+
+////////////////////////////////////////////////
+//Container for the disable div when sidebar is out
+////////////////////////////////////////////////
+
+.disable {
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(54, 53, 53, 0.281);
+}
+
+
+////////////////////////////////////////////////
+//Container for the responsive sidebar
+////////////////////////////////////////////////
+.sidebar-two {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 275px;
+    height: 100%;
+    background: #333645;
+    overflow: auto;
+    a {
+        height: 16px;
+        width: 216px;
+       // padding: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+.side-bar {
+    width: 216px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    background-color: rgba(0,0,0,0.25);
+}
+.side-bar li{
+        height: 42px;
+        width: 216px;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(0,0,0,0.25); 
+        justify-content: center;
+    
+}
+
+.sb-btn {
+    display: flex;
+    flex-direction: column;
+    height: 73px;
+    padding: 19px 0 18px;
+    text-transform: uppercase;
+    outline: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(0,0,0,0.25);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    small {
+        text-transform: uppercase;
+        font-size: 0.625rem; 
+        margin: 11px 0 8px;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 0; 
+        text-transform: uppercase;
+        font-size: 1.125rem;
+        text-decoration: none;
+        line-height: 1;
+      }
+}
+.sb-btn-top{
+    margin-top: 20px;
+  }
+.sb-contact {
+    height: 64px;
+    text-transform: uppercase;
+    outline: 1px solid rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    justify-content: center;
+    margin-bottom: 20px;
+    :hover  {cursor: pointer;}
+    a { 
+        padding: 24px 0;
+        font-size: 1.125rem;
+    }
+}
+
+.sidebar-sm {
+    text-align: center;
+   // width: 216px;
+    padding: 21px;
+    :hover {
+        cursor: pointer;
+    }
+}
+.sb a{
+    padding: 20px;
+}
+
+.sidebar-vis-two {
+    display: block;
+}
+
+.highlight:hover {background-color:rgba(255,255,255,0.05)}
+.side-bar-wd:hover .highlight-wd{background-color:rgba(255,255,255,0.05)}
+.side-bar-is:hover .highlight-is{background-color:rgba(255,255,255,0.05)}
+.side-bar-ts:hover .highlight-ts{background-color:rgba(255,255,255,0.05)}
+.side-bar-bs:hover .highlight-bs{background-color:rgba(255,255,255,0.05)}
+.side-bar-dm:hover .highlight-dm{background-color:rgba(255,255,255,0.05)}
+.side-bar-cs:hover .highlight-cs{background-color:rgba(255,255,255,0.05)}
+
+////////////////////////////////////////////////
+//Container for the cookie bar
+////////////////////////////////////////////////
+
+.cookie {
+    position: fixed;
+    bottom: 0;
+    z-index: 100000;
+    height: 60px;
+    width: 100%;
+    background-color: #22242e;
+    color: #fff;
+    .h1 {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+}
+.btn-holder {
+  position: absolute;
+  top: 5px;
+  right: 100px;
+}
+.accept-btn,
+.decline-btn {
+    width: 150px;
+    margin-right: 20px;
+}
+.cookie-invis {
+    display: none;
+}

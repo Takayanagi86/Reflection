@@ -1,0 +1,144 @@
+//Main logo inside the header
+.logo {
+  display: block;
+  margin: 20px 0;
+  min-width: 100px;
+  min-height: 52px;
+  object-fit: contain;
+}
+
+//Properties for the main pic used instead of the carousel
+.carousel {
+  width: 100%;
+  height: 774px;
+  color: white;
+  line-height: 2.25rem;
+  //margin-bottom: 45px;
+  text-decoration: none;
+
+  
+
+  h1 {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  button {
+    margin-top: 25px;
+    
+    height: auto;
+    border: 1px solid transparent;
+    color: white;
+    line-height: 50px;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: .4px;
+  }
+}
+
+.web-design {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-3wAI.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $wd-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $wd-colors;
+  }
+}
+.it-support {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-57sJ.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $it-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $it-colors;
+  }
+}
+.telecoms-services {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-5yqm.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $ts-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $ts-colors;
+  }
+}
+.bespoke-software {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-sqvx.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $bs-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $bs-colors;
+  }
+}
+.digital-marketing {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-JQsO.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $dm-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $dm-colors;
+  }
+}
+.cyber-security {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-lQs1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  button{
+    background-color: $cs-block-colors;
+  }
+  figcaption button:hover {
+    background-color: $cs-colors;
+  }
+}
+
+//Properties for the images used in the article section
+.img-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 3px 3px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.img-container img {
+  transform-origin: 50% 50%;
+  transition: all .25s cubic-bezier(.215, .61, .355, 1);
+}
+//The overlay used to create the on hover colour effect for the article section
+.photo-overlay {
+  opacity: 0;
+  transition: opacity;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
