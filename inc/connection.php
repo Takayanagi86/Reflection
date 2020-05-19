@@ -6,7 +6,7 @@ try {
     $dbname = "articles";
     $username = "root";
     $pw = "password";
-    $dbh = new PDO ("dblib:host=$hostname:$port;dbname=$dbname","$username","$pw");
+    $dbh = new PDO ("mysql:host=$hostname:$port;dbname=$dbname","$username","$pw");
 } catch (PDOException $e) {
     echo "Unable to Connect";
     exit;
@@ -19,6 +19,7 @@ $stmt->execute();
 
 try {
 $articles = $stmt->fetchAll();
+
 } catch (Exception $e) {
     echo "Unable to retrieve data";
     exit;
