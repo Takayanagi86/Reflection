@@ -43,6 +43,9 @@ button:hover {
   background-color: #4183d7;
   border-color: #4183d7;
 }
+.contact-btn-li a {
+  text-decoration: none;
+}
 
 .contact-btn {
   height: 56px;
@@ -76,7 +79,7 @@ button:hover {
       height: 3px;
       content: '';
       background-color: white;
-
+      transition: ease 1s;  
     
     }
     .middle {

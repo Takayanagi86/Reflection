@@ -3,7 +3,7 @@
 try {
     $hostname = "localhost";
     $port = 3306;
-    $dbname = "articles";
+    $dbname = "reflection";
     $username = "root";
     $pw = "password";
     $dbh = new PDO ("mysql:host=$hostname:$port;dbname=$dbname","$username","$pw");
@@ -12,7 +12,7 @@ try {
     exit;
 }
 $stmt = $dbh->prepare("SELECT *
-                       FROM articles
+                       FROM articles 
                        ORDER BY datePosted
                        LIMIT 3");
 $stmt->execute();

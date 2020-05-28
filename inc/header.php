@@ -8,7 +8,7 @@
                         <div class="selection clearfix">
                             <ul>
                                 <li class="support-btn-li"><button class="support-btn"><i class="fas fa-mouse"></i>Support</button></li>
-                                <li class="contact-btn-li"><button class="contact-btn"><i class="far fa-paper-plane"></i>Contact</button></liclass="contact-btn">
+                                <li class="contact-btn-li"><a href="http://localhost:1234/Reflection/contact.php"><button  class="contact-btn"><i class="far fa-paper-plane"></i>Contact</button></a></li>
                                 <li><a href="#"><img class="phone" src="img/phone.png" alt="phone"></a></li>
                                 <li class="menu-btn-li">
                                     <button id="menu-btn" class="menu-btn" > 

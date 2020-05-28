@@ -1,1 +1,3014 @@
-.clearfix::after{content:"";display:table;clear:both}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}ul,ol{list-style-type:none;padding:0;margin:0}body{margin:0;font-family:'poppins', sans-serif;letter-spacing:.4px;position:relative;overflow:hidden}a{display:inline-block}ul{list-style:none;display:flex;vertical-align:center}li{height:100%;display:flex}#b-container{overflow-x:hidden;overflow-y:scroll;height:100vh;width:100vw;position:relative}.banner{margin:209px auto 45px}header button{text-decoration:none;color:white}.heading{background-color:white;margin-right:17px}.navbar{display:none;background-color:#333645;height:99px}figcaption{width:100%;text-align:center;padding-top:270px}figcaption button:hover{cursor:pointer}.main{box-shadow:0 0.3125rem 2.1875rem -10px rgba(0,0,0,0.1)}.second-section{background-color:#333645;color:white;height:auto;padding:50px 15px}.second-section .ss-container{max-width:720px;margin-left:auto;margin-right:auto}.second-section h1{font-size:2.25rem;text-transform:uppercase;font-weight:normal;margin:0 0 28px;line-height:1.1}.second-section p{line-height:1.875rem;margin-bottom:25px}.second-section .p-bold{font-weight:600}.second-section button{height:auto;line-height:35px;padding:5px 15px;text-transform:uppercase;font-size:1.063rem;border-radius:3px;background-color:#fff;color:#333645;border:1px solid transparent}.second-section button .fas{color:#333645}.clients{display:none;height:145.11px}.client-list{display:flex;justify-content:space-between;vertical-align:center;padding:50px 0}.client{position:relative;padding:0 20px}.client img{max-height:45.109px;vertical-align:middle}.client .colour,.client .description{display:none}.client:hover{cursor:pointer}.client:hover .black{display:none}.client:hover .colour,.client:hover .description{display:block}.client:hover .description{position:absolute;bottom:100%;left:-200px;right:-200px;text-align:center}.client:hover .popout{background-color:#333645;color:#fff;padding:20px;font-size:0.875rem;max-width:260px;margin:0 auto 50px}.client:hover .popout .arrow-down{position:absolute;bottom:15px;left:50%;margin-left:-36px;width:0;height:0;border-left:36px solid transparent;border-right:36px solid transparent;border-top:35px solid #333645}.client:hover .popout h3{position:relative;font-size:1.125rem;color:#fff;padding-bottom:17px;margin:0 0 11px}.client:hover .popout h3 span::after{content:'';position:absolute;bottom:0;left:0;right:0;margin:auto;width:28px;height:3px;display:block;background-color:#fff}.client:hover .popout p{font-size:0.8125rem;line-height:1.375rem;margin-bottom:0}.partners{display:none;height:88px;padding:50px 0;background-color:white}.partner-list{display:flex;justify-content:space-between;vertical-align:center;padding-top:25px}.partner{position:relative;padding:0 20px}.partner img{max-height:45.109px;vertical-align:middle}.partner .colour{display:none}.partner:hover{cursor:pointer}.partner:hover .black{display:none}.partner:hover .colour,.partner:hover .description{display:block}.container{display:flex;margin:0 15px}.container img:hover{cursor:pointer}.selection{display:flex;justify-content:right;margin-top:auto;margin-bottom:auto;margin-left:auto}.selection img:hover{color:black;font-weight:bold;border-bottom:1px solid black}.selection .support-btn-li :hover{background-color:#2a6ec6;border-color:#2665b5;cursor:pointer}.selection .contact-btn-li :hover{background-color:#84858f;border-color:#797a85;cursor:pointer}.selection .menu-btn-li :hover{background-color:#22242e;border-color:#191a22;cursor:pointer}.selection .menu-btn-li .burger:hover{background-color:white}#myHeader{z-index:100;position:fixed;top:0;width:100%;transition:top 0.3s}.main-pic{margin-top:110px}.sidebar{display:none;position:fixed;top:0;right:0;z-index:1000;width:350px;height:100%;background:#333645;overflow:auto}.sidebar a{height:16px;width:310px;padding:20px;text-decoration:none;text-transform:uppercase;color:#fff}.sb-flex{display:flex;flex-direction:column}.sb-flex ul{flex-direction:column}.sb-flex ul li{flex-direction:column}.training,.our-company,.our-work,.our-knowledge{border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(0,0,0,0.25)}.training:hover .highlight{background-color:rgba(255,255,255,0.05)}.our-company:hover .highlight{background-color:rgba(255,255,255,0.05)}.our-work:hover .highlight{background-color:rgba(255,255,255,0.05)}.our-knowledge:hover .highlight{background-color:rgba(255,255,255,0.05)}.menu a{font-size:0.875rem;height:20px;padding:15px 20px;border-top:1px solid rgba(255,255,255,0.05);background-color:rgba(0,0,0,0.25)}.menu a::before{content:"\00BB";padding-right:15px}.menu li{border-top:1px solid rgba(0,0,0,0.45)}.sb-class{position:absolute;right:275px;width:100%}.disable{position:absolute;z-index:1000;height:100vh;width:100vw;background-color:rgba(54,53,53,0.281)}.sidebar-two{display:none;position:fixed;top:0;right:0;z-index:1000;width:275px;height:100%;background:#333645;overflow:auto}.sidebar-two a{height:16px;width:216px;text-decoration:none;text-transform:uppercase;color:#fff}.side-bar{width:216px;align-items:center;color:white;text-decoration:none;border-top:1px solid rgba(255,255,255,0.05);background-color:rgba(0,0,0,0.25)}.side-bar li{height:42px;width:216px;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(0,0,0,0.25);justify-content:center}.sb-btn{display:flex;flex-direction:column;height:73px;padding:19px 0 18px;text-transform:uppercase;outline:1px solid rgba(255,255,255,0.1);border:1px solid rgba(0,0,0,0.25);color:white;text-align:center;justify-content:center;margin-bottom:20px}.sb-btn small{text-transform:uppercase;font-size:0.625rem;margin:11px 0 8px}.sb-btn p{margin-top:0;margin-bottom:0;text-transform:uppercase;font-size:1.125rem;text-decoration:none;line-height:1}.sb-btn-top{margin-top:20px}.sb-contact{height:64px;text-transform:uppercase;outline:1px solid rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,0.1);color:white;justify-content:center;margin-bottom:20px}.sb-contact :hover{cursor:pointer}.sb-contact a{padding:24px 0;font-size:1.125rem}.sidebar-sm{text-align:center;padding:21px}.sidebar-sm :hover{cursor:pointer}.sb a{padding:20px}.sidebar-vis-two{display:block}.highlight:hover{background-color:rgba(255,255,255,0.05)}.side-bar-wd:hover .highlight-wd{background-color:rgba(255,255,255,0.05)}.side-bar-is:hover .highlight-is{background-color:rgba(255,255,255,0.05)}.side-bar-ts:hover .highlight-ts{background-color:rgba(255,255,255,0.05)}.side-bar-bs:hover .highlight-bs{background-color:rgba(255,255,255,0.05)}.side-bar-dm:hover .highlight-dm{background-color:rgba(255,255,255,0.05)}.side-bar-cs:hover .highlight-cs{background-color:rgba(255,255,255,0.05)}.cookie{position:fixed;bottom:0;z-index:100000;height:60px;width:100%;background-color:#22242e;color:#fff}.cookie .h1{margin-top:25px;margin-left:25px}.btn-holder{position:absolute;top:5px;right:100px}.accept-btn,.decline-btn{width:150px;margin-right:20px}.cookie-invis{display:none}.first-section{text-align:center;display:flex;flex-wrap:wrap;flex-direction:row;font-family:'poppins', sans-serif;letter-spacing:.4px}.first-section .block{width:100%;margin-bottom:30px;margin-left:15px;margin-right:15px;box-shadow:0 0.3125rem 2.1875rem rgba(0,0,0,0.1)}.first-section a{text-decoration:none;color:black}.first-section h2{font-size:1.125rem;padding-bottom:10px;margin:0 0 11px;letter-spacing:.4px;font-weight:normal}.first-section h2 ::after{content:'';position:absolute;display:block;background-color:black;color:black;margin:auto;width:28px;height:3px}.line{content:'';display:block;background-color:black;color:black;margin:auto;width:28px;height:3px}.first-section p{font-size:0.8125rem;line-height:1.375rem;margin-top:20px;margin-bottom:13px;padding:0 15px}.first-section .fs-btn{display:inline-block;height:auto;line-height:35px;padding:5px 15px;text-transform:uppercase;font-size:1.063rem;border-radius:3px;border:1px solid transparent;font-family:'poppins', sans-serif;letter-spacing:.4px}.first-section :hover .line{background-color:white}.wd-block,.it-block,.ts-block,.bs-block,.dm-block,.cs-block{max-width:720px;height:auto;border:1px solid #ccc;border-radius:3px;padding:30px;color:black}.wd-block .icon,.wd-block .fs-btn{background-color:#926fb1;color:white}.wd-block:hover{background-color:#926fb1}.wd-block:hover p,.wd-block:hover h2{color:white}.wd-block:hover .icon,.wd-block:hover .fs-btn,.wd-block:hover .fas{background-color:white;color:#926fb1}.it-block .icon,.it-block .fs-btn{background-color:#4183d7;color:white}.it-block:hover{background-color:#4183d7}.it-block:hover p,.it-block:hover h2{color:white}.it-block:hover .icon,.it-block:hover .fs-btn,.it-block:hover .fas{background-color:white;color:#4183d7}.ts-block .icon,.ts-block .fs-btn{background-color:#d64541;color:white}.ts-block:hover{background-color:#d64541}.ts-block:hover p,.ts-block:hover h2{color:white}.ts-block:hover .icon,.ts-block:hover .fs-btn,.ts-block:hover .fas{background-color:white;color:#d64541}.bs-block .icon,.bs-block .fs-btn{background-color:#67809f;color:white}.bs-block:hover{background-color:#67809f}.bs-block:hover p,.bs-block:hover h2{color:white}.bs-block:hover .icon,.bs-block:hover .fs-btn,.bs-block:hover .fas{background-color:white;color:#67809f}.dm-block .icon,.dm-block .fs-btn{background-color:#2ecc71;color:white}.dm-block:hover{background-color:#2ecc71}.dm-block:hover p,.dm-block:hover h2{color:white}.dm-block:hover .icon,.dm-block:hover .fs-btn,.dm-block:hover .fas{background-color:white;color:#2ecc71}.cs-block .icon,.cs-block .fs-btn{background-color:#f62459;color:white}.cs-block:hover{background-color:#f62459}.cs-block:hover p,.cs-block:hover h2{color:white}.cs-block:hover .icon,.cs-block:hover .fs-btn,.cs-block:hover .fas{background-color:white;color:#f62459}.art-bar{box-shadow:0 0.3125rem 2.1875rem rgba(0,0,0,0.1)}.art-bar div{display:block;position:relative;color:#333645;height:104px;margin-top:0;margin-left:15px}.art-bar div h2{margin-block-end:0;margin-block-start:0;padding-top:40px;font-family:'poppins', sans-serif;font-size:20px;text-transform:uppercase}.art-bar div ::after{content:'';position:absolute;bottom:0%;left:0;right:0;background-color:#333645;height:5px;width:70.33px}.art-bg{padding:50px 15px}.bar{width:100%}.img-container{display:flex}.article-section .img{flex-grow:1;width:100%;height:auto}.art-container{display:block;border-radius:0 0 3px 3px;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:30px}.art-container .btn{background-color:#4183d7;color:white;border:1px solid transparent}.art-box{position:relative;max-width:100%;height:auto}.article-tooltip{position:absolute;top:10px;right:0;color:#fff;background-color:#333645;font-size:0.75rem;padding:0 10px;line-height:1.438rem;text-transform:uppercase;text-decoration:none;z-index:1}.tooltip{display:none;position:absolute;background-color:#333645;color:#fff;font-size:0.75rem;padding:0 10px;max-width:130px;max-height:50px;margin:0 auto 50px;z-index:2;top:-49px;right:1px;text-align:center;overflow:visible}.tooltip .mini-arrow-down{display:none;position:absolute;bottom:-6px;left:93%;margin-left:-36px;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid #333645}.article-tooltip:hover+.tooltip,.article-tooltip:hover+.tooltip .mini-arrow-down{display:block}.careers-block{position:relative;margin-bottom:30px}.careers-block .article-tooltip,.careers-block .btn{background-color:#4183d7}.careers-block .btn:hover{background-color:#2a6ec6;border-color:#2665b5;cursor:pointer}.careers-block .bot-art-sec a{color:#4183d7}.insights-block{position:relative;margin-bottom:30px}.insights-block .article-tooltip,.insights-block .btn{background-color:#67809f}.insights-block .btn:hover{background-color:#566c88;border-color:#4e627b;cursor:pointer}.insights-block .bot-art-sec a{color:#67809f}.news-block{position:relative}.news-block .tooltip .mini-arrow-down{left:100%}.news-block .article-tooltip,.news-block .btn{background-color:#926fb1}.news-block .btn:hover{background-color:#7e57a0;border-color:#735093;cursor:pointer}.news-block .bot-art-sec a{color:#926fb1}.bot-art-sec h3{margin:0px}.bot-art-sec h3 a{font-weight:600;text-decoration:none}.bot-art-sec h3 :hover{text-decoration:underline}.bot-art-sec p{line-height:1.375rem;font-size:0.8125rem;margin-bottom:25px;color:#666;letter-spacing:.4px}.posted-section{margin-top:30px;padding-top:30px;border-top:1px solid #ccc;display:flex}.posted-section img{margin:0 20px 0 15px;border-radius:50%}.posted-section .posted-p-bold{margin-top:0;margin-bottom:5px;font-weight:600;color:#333645}.posted-section .posted-p-date{margin-top:0;margin-bottom:0;color:#666}footer{background-color:#333645;color:#fff;padding-top:47px;padding-bottom:11px}footer a{text-decoration:none;color:white}footer h4{color:#fff;text-transform:uppercase;font-size:1rem;margin-top:0;margin-bottom:26px;font-weight:normal}footer p{font-size:0.8125rem;line-height:1.375rem;margin-bottom:0;margin-top:0}footer a:hover{text-decoration:underline}footer .sitemap{font-size:13px}.footer-container{margin-left:15px;margin-right:15px}.about{margin-top:30px}.about a{font-size:0.8125rem;line-height:1.375rem}.website,.social{margin-top:30px}.social-container{display:flex;margin:30px 15px 0 0;height:170px;flex-wrap:wrap}.social-container .social-box{min-width:50%}.social-container .facebook,.social-container .twitter,.social-container .linkedin{content:'';display:block;min-width:50px;height:55px;background-color:rgba(0,0,0,0.25);color:white;margin:0 15px}.social-container .facebook,.social-container .linkedin{margin-left:0}.social-container .twitter{margin-right:0}.social-box{position:relative}.social-box .fab{transform:scale(1.5);position:absolute;left:45%;top:25%}.soc-box-twit .fab{left:49%}.soc-box-fb :hover{background-color:#3B5998}.soc-box-twit :hover{background-color:#00aced}.soc-box-link :hover{background-color:#0077B5}.navbar-ul{display:flex;height:99px;max-width:940px;margin:0 auto;flex-grow:1;border-left-color:rgba(255,255,255,0.1);border-left-style:solid;border-left-width:1px;border-right-color:rgba(0,0,0,0.25);border-right-style:solid;border-right-width:1px;padding-inline-start:0;position:relative}.web,.ts,.bs,.cs,.dm,.it{display:flex;width:16.6666%;background-color:#333645;color:white;padding:19px 0 18px;text-align:center;border-left-color:rgba(0,0,0,0.25);border-left-style:solid;border-left-width:1px;border-right-color:rgba(255,255,255,0.1);border-right-style:solid;border-right-width:1px;flex-grow:1}.web small,.ts small,.bs small,.cs small,.dm small,.it small{text-transform:uppercase;font-size:0.625rem}.web p,.ts p,.bs p,.cs p,.dm p,.it p{margin-top:0;margin-bottom:0;text-transform:uppercase;font-size:1.125rem;text-decoration:none;line-height:1}.navbar li:not(:first-child){margin-left:20px}.wd-bar li,.it-bar li,.ts-bar li,.bs-bar li,.dm-bar li,.cs-bar li{align-items:center;color:white}.wd-bar li a,.it-bar li a,.ts-bar li a,.bs-bar li a,.dm-bar li a,.cs-bar li a{color:white;text-decoration:none}.navbar .nav-btn:hover{cursor:pointer}.navbar .nav-btn:hover .fa-code,.navbar .nav-btn:hover .fa-desktop,.navbar .nav-btn:hover .fa-phone-alt,.navbar .nav-btn:hover .fa-th,.navbar .nav-btn:hover .fa-signal,.navbar .nav-btn:hover .fa-shield-alt{color:white}.navbar .nav-btn:hover .bar{display:flex;position:absolute;z-index:100;top:99px;left:0%;margin:auto;height:45px;width:100%;justify-content:space-between;align-items:center}.navbar .nav-btn:hover ul::before{content:'';display:block;position:absolute;top:0;height:45px;right:100%}.navbar .nav-btn:hover ul::after{content:'';display:block;position:absolute;top:0;height:45px;left:100%}.navbar .web-btn:hover{background-color:#926fb1}.navbar .web-btn:hover .wd-bar{background-color:#79539a}.navbar .web-btn:hover ul::before{background-color:#79539a}.navbar .web-btn:hover ul::after{background-color:#79539a}.navbar .it-btn:hover{background-color:#4183d7}.navbar .it-btn:hover .it-bar{background-color:#286abd}.navbar .it-btn:hover ul::before{background-color:#286abd}.navbar .it-btn:hover ul::after{background-color:#286abd}.navbar .ts-btn:hover{background-color:#d64541}.navbar .ts-btn:hover .ts-bar{background-color:#bc2c28}.navbar .ts-btn:hover ul::before{background-color:#bc2c28}.navbar .ts-btn:hover ul::after{background-color:#bc2c28}.navbar .bs-btn:hover{background-color:#67809f}.navbar .bs-btn:hover .bs-bar{background-color:#526781}.navbar .bs-btn:hover ul::before{background-color:#526781}.navbar .bs-btn:hover ul::after{background-color:#526781}.navbar .dm-btn:hover{background-color:#2ecc71}.navbar .dm-btn:hover .dm-bar{background-color:#25a25a}.navbar .dm-btn:hover ul::before{background-color:#25a25a}.navbar .dm-btn:hover ul::after{background-color:#25a25a}.navbar .cs-btn:hover{background-color:#f62459}.navbar .cs-btn:hover .cs-bar{background-color:#de093f}.navbar .cs-btn:hover ul::before{background-color:#de093f}.navbar .cs-btn:hover ul::after{background-color:#de093f}.btn{height:auto;line-height:35px;padding:5px 15px;text-transform:uppercase;font-size:1.063rem;border-radius:3px}.support-btn,.contact-btn,.menu-btn,.cookie-btn{vertical-align:center;border:1px solid transparent;padding:5px 15px;border-radius:3px;font-size:1.125rem;line-height:46px;text-align:center;font-family:'poppins', sans-serif;text-transform:uppercase}button:focus{outline:0}button:hover{cursor:pointer}.support-btn,.contact-btn{display:none}.support-btn{height:56px;width:145px;background-color:#4183d7;border-color:#4183d7}.contact-btn{height:56px;width:155px;background-color:#999aa2;border-color:#999aa2;margin-left:20px}.menu-btn{height:56px;width:63px;background-color:#333645;border-color:#333645;margin-left:20px;font-size:.8rem;border:none}.menu-btn .burger-box{width:33px;height:19px;position:relative}.menu-btn .burger-box .burger{position:absolute;top:-20px;display:block;margin-top:5px;margin-bottom:5px;width:33px;height:3px;content:'';background-color:white}.menu-btn .burger-box .middle{position:absolute;top:-10px;display:block;width:33px;height:3px;content:'';background-color:white}.menu-btn .burger-box .bottom{position:absolute;top:0px;display:block;width:33px;height:3px;content:'';background-color:white}.menu-btn .burger-box .burger-menu{position:absolute;right:-17px;top:-5px;height:0px}.open span:nth-child(1){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);top:-14px;left:-16px}.open span:nth-child(2){width:0%;opacity:0}.open span:nth-child(3){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);top:-14px;left:-16px}.nav-btn{display:flex;justify-content:center;flex-direction:column;align-content:center}.icon{background-color:black;margin:auto;content:'';display:block;width:60px;height:60px;border-radius:50%;margin-bottom:17px}.phone{width:32px;max-height:32px;padding-top:10px;padding-bottom:5px;margin-right:20px;margin-left:20px;transform:scale(0.8)}.fa-mouse,.fa-paper-plane{padding-right:20px;margin-right:10px;transform:scale(1.1);width:5px}.navbar .fas{padding-bottom:10px}.fa-code{color:#79539a}.fa-desktop{color:#286abd}.fa-phone-alt{color:#bc2c28}.fa-th{color:#526781}.fa-signal{color:#25a25a}.fa-shield-alt{color:#de093f}.fa-arrow-right{color:white;margin-left:10px;transform:scale(0.9)}.icon .fas{transform:scale(1.5);color:white;margin-top:37%;margin-left:2px}.logo{display:block;margin:20px 0;min-width:100px;min-height:52px;object-fit:contain}.carousel{width:100%;height:774px;color:white;line-height:2.25rem;text-decoration:none}.carousel h1{margin-top:0px;font-size:48px;font-weight:normal;text-transform:uppercase;text-decoration:none}.carousel p{font-size:20px;text-decoration:none}.carousel button{margin-top:25px;height:auto;border:1px solid transparent;color:white;line-height:50px;padding:5px 20px;font-size:1.25rem;border-radius:3px;font-family:'poppins', sans-serif;letter-spacing:.4px}.web-design{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-3wAI.jpg") no-repeat;background-size:cover;background-position:center center}.web-design button{background-color:#926fb1}.web-design figcaption button:hover{background-color:#79539a}.it-support{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-57sJ.jpg") no-repeat;background-size:cover;background-position:center center}.it-support button{background-color:#4183d7}.it-support figcaption button:hover{background-color:#286abd}.telecoms-services{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-5yqm.jpg") no-repeat;background-size:cover;background-position:center center}.telecoms-services button{background-color:#d64541}.telecoms-services figcaption button:hover{background-color:#bc2c28}.bespoke-software{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-sqvx.jpg") no-repeat;background-size:cover;background-position:center center}.bespoke-software button{background-color:#67809f}.bespoke-software figcaption button:hover{background-color:#526781}.digital-marketing{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-JQsO.jpg") no-repeat;background-size:cover;background-position:center center}.digital-marketing button{background-color:#2ecc71}.digital-marketing figcaption button:hover{background-color:#25a25a}.cyber-security{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/home-lQs1.jpg") no-repeat;background-size:cover;background-position:center center}.cyber-security button{background-color:#f62459}.cyber-security figcaption button:hover{background-color:#de093f}.img-container{max-width:100%;overflow:hidden;position:relative;border-radius:0 0 3px 3px;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc}.img-container img{transform-origin:50% 50%;transition:all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1)}.photo-overlay{opacity:0;transition:opacity;position:absolute;top:0;right:0;bottom:0;left:0;padding-left:20px;padding-right:20px;background:rgba(255,255,255,0.5)}@supports (-ms-ime-align: auto){.support-btn{width:150px}.menu-btn{position:relative}.burger-box{position:absolute;top:24px}}@-moz-document url-prefix(''){.burger-box{top:10px}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.container{margin:0 15px}.logo{min-height:25px;height:auto}.selection ul li{margin-top:28px}.selection .support-btn{width:150px}.selection .menu-btn{position:relative}.selection .burger-box{position:absolute;top:24px;right:15px}.selection .burger-menu{margin-right:15px}.menu-btn{min-width:63px}}@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm){.selector:not(*:root),.burger-box{top:-3px}}@media (min-width: 768px){.phone{display:none}.container{max-width:720px;margin-left:auto;margin-right:auto}.block{max-width:283px}.block:nth-child(odd){margin-left:auto;margin-right:15px}.block:nth-child(even){margin-right:auto;margin-left:15px}.second-section{padding:50px 0}.second-section .ss-container{padding:0 15px}.art-bar div{width:720px;margin:0 auto}.art-bg{display:flex;padding:50px 0;justify-content:space-between}.article-section{max-width:720px;margin-left:auto;margin-right:auto}.article-section span{margin:0}.careers-block,.insights-block{width:375px;max-width:345px}.careers-block .art-container,.insights-block .art-container{height:309px}.careers-block .art-container h3,.insights-block .art-container h3{font-size:16px;height:48px;margin-bottom:15px}.careers-block .art-container .posted-section p,.insights-block .art-container .posted-section p{font-size:14px}.news-block{display:none}.clients{display:block}.clients-container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;width:720px}footer{padding-bottom:43px}.footer-container{display:flex;flex-wrap:wrap;height:438px;width:720px;margin-left:auto;margin-right:auto}.footer-container .contact,.footer-container .about,.footer-container .website,.footer-container .social{min-width:50%}.footer-container .about{margin-top:0}.partners{display:block;height:88px;padding:50px 0}.partners-container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;width:720px}}@media (min-width: 990px){.container{max-width:940px}.support-btn,.contact-btn{display:block}.navbar{display:block}.navbar .wd-bar,.navbar .it-bar,.navbar .ts-bar,.navbar .bs-bar,.navbar .dm-bar,.navbar .cs-bar{display:none;text-transform:uppercase}ul::before{width:calc((100vw - 958px) /2);overflow:hidden}ul::after{width:calc((100vw - 958px) /2);overflow:hidden}.sidebar-vis{display:block}.sidebar-vis-two{display:none}.sb-class{right:350px}figcaption{width:940px;text-align:left;padding-top:235px;margin:0 auto}.first-section{max-width:95%;margin-left:auto;margin-right:auto}.block{max-width:385px}.second-section{background-image:url(../img/branded.png);background-repeat:no-repeat;background-position:right center;background-size:auto 100%}.second-section .ss-container{max-width:940px}.art-bar div{width:940px;margin:0 auto}.art-bg{display:flex;padding:50px 0;justify-content:space-between}.article-section{max-width:940px;margin-left:auto;margin-right:auto}.article-section span{margin:0}.photo-overlay:hover{opacity:0.8}.img-container:hover img{transform:scale(1.1)}.careers-block,.insights-block{width:455px;max-width:455px}.careers-block .bot-art-sec p,.insights-block .bot-art-sec p{height:66px}.clients{height:162.83px}.clients-container{width:940px}.client img{max-height:62.83px}.footer-container{width:940px}.partners{height:110px}.partners-container{width:940px}.partner img{max-height:62.83px}}@media (min-width: 1255px){.container{max-width:1200px}.navbar-ul{max-width:1200px}.bar{width:1202px}ul::before{width:calc((100vw - 1217px) / 2)}ul::after{width:calc((100vw - 1217px) / 2)}figcaption{width:1170px}.first-section{max-width:1255px}.wd-block,.it-block{max-width:508px}.ts-block,.bs-block,.dm-block,.cs-block{max-width:270px;padding-left:0;padding-right:0}.block:nth-child(4){margin-right:15px}.block:nth-child(5){margin-left:15px}.second-section .ss-container{max-width:1170px}.second-section .ss-container h1,.second-section .ss-container p{max-width:600px}.art-bar div{width:1170px;margin:0 auto}.art-bg{display:flex;padding:50px 0;justify-content:space-between}.article-section{max-width:1170px;margin-left:auto;margin-right:auto}.article-section span{margin:0}.careers-block,.insights-block,.news-block{width:370px;max-width:370px}.careers-block .art-container,.insights-block .art-container,.news-block .art-container{height:309px}.careers-block .art-container h3,.insights-block .art-container h3,.news-block .art-container h3{font-size:16px;height:48px;margin-bottom:15px}.careers-block .art-container .posted-section p,.insights-block .art-container .posted-section p,.news-block .art-container .posted-section p{font-size:14px}.news-block{display:block}.clients{height:170px}.clients-container{width:1170px}.client img{max-height:70px}footer{height:219px}.footer-container{width:1170px;height:219px}.footer-container .contact,.footer-container .about,.footer-container .website,.footer-container .social{min-width:25%;max-width:200px}.footer-container .website,.footer-container .social{margin-top:0}.social-box:nth-child(odd) .fab{left:40%}.partners{height:88px}.partners-container{width:1170px}.partner img{max-height:70px}.partner-list{padding:0}}
+/* line 1, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_helpers.scss */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+/* line 13, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers (opinionated).
+   */
+/* line 27, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+body {
+  margin: 0;
+}
+
+/**
+   * Add the correct display in IE 9-.
+   */
+/* line 35, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+/* line 49, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in IE.
+   */
+/* line 62, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+   * Add the correct margin in IE 8.
+   */
+/* line 72, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+/* line 81, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 92, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * 1. Remove the gray background on active links in IE 10.
+   * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+   */
+/* line 105, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+   * Remove the outline on focused links when they are also active or hovered
+   * in all browsers (opinionated).
+   */
+/* line 115, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+   * 1. Remove the bottom border in Firefox 39-.
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+/* line 125, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+   */
+/* line 135, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+/* line 144, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 154, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font style in Android 4.3-.
+   */
+/* line 165, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+   * Add the correct background and color in IE 9-.
+   */
+/* line 173, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+/* line 182, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+/* line 191, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 199, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 203, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   */
+/* line 214, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+   * Add the correct display in iOS 4-7.
+   */
+/* line 223, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+   * Remove the border on images inside links in IE 10-.
+   */
+/* line 232, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+img {
+  border-style: none;
+}
+
+/**
+   * Hide the overflow in IE.
+   */
+/* line 240, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers (opinionated).
+   * 2. Remove the margin in Firefox and Safari.
+   */
+/* line 252, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+/* line 268, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+/* line 278, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+   *    controls in Android 4.
+   * 2. Correct the inability to style clickable types in iOS and Safari.
+   */
+/* line 289, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+/* line 300, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+/* line 312, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Change the border, margin, and padding in all browsers (opinionated).
+   */
+/* line 323, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+/* line 336, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * 1. Add the correct display in IE 9-.
+   * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+/* line 350, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+   * Remove the default vertical scrollbar in IE.
+   */
+/* line 359, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10-.
+   * 2. Remove the padding in IE 10-.
+   */
+/* line 368, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/* line 378, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+/* line 388, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */
+/* line 397, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* line 407, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in Edge, IE, and Firefox.
+   */
+/* line 420, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+/* line 429, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   */
+/* line 440, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+   * Add the correct display in IE.
+   */
+/* line 448, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10-.
+   */
+/* line 459, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+[hidden] {
+  display: none;
+}
+
+/**
+   * List styles
+   */
+/* line 466, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_reset.scss */
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 5, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+body {
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 12, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+a {
+  display: inline-block;
+}
+
+/* line 15, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+ul {
+  list-style: none;
+  display: flex;
+  vertical-align: center;
+}
+
+/* line 20, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+li {
+  height: 100%;
+  display: flex;
+}
+
+/* line 24, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+#b-container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.banner {
+  margin: 209px auto 45px;
+}
+
+/* line 34, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.box-shadow {
+  box-shadow: 0 0.3125rem 2.1875rem rgba(0, 0, 0, 0.1);
+}
+
+/* line 40, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+header button {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 44, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.heading {
+  background-color: white;
+  margin-right: 17px;
+}
+
+/* line 48, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.navbar {
+  display: none;
+  background-color: #333645;
+  height: 99px;
+}
+
+/* line 58, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+figcaption {
+  width: 100%;
+  text-align: center;
+  padding-top: 270px;
+}
+
+/* line 62, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+figcaption button:hover {
+  cursor: pointer;
+}
+
+/* line 68, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.main {
+  box-shadow: 0 0.3125rem 2.1875rem -10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 74, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section {
+  background-color: #333645;
+  color: white;
+  height: auto;
+  padding: 50px 15px;
+}
+
+/* line 79, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section .ss-container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 84, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section h1 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 0 28px;
+  line-height: 1.1;
+}
+
+/* line 91, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section p {
+  line-height: 1.875rem;
+  margin-bottom: 25px;
+}
+
+/* line 96, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section .p-bold {
+  font-weight: 600;
+}
+
+/* line 99, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section button {
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333645;
+  border: 1px solid transparent;
+}
+
+/* line 109, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.second-section button .fas {
+  color: #333645;
+}
+
+/* line 117, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.clients {
+  display: none;
+  height: 145.11px;
+}
+
+/* line 122, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client-list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  padding: 50px 0;
+}
+
+/* line 128, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client {
+  position: relative;
+  padding: 0 20px;
+}
+
+/* line 131, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client img {
+  max-height: 45.109px;
+  vertical-align: middle;
+}
+
+/* line 135, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client .colour,
+.client .description {
+  display: none;
+}
+
+/* line 140, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover {
+  cursor: pointer;
+}
+
+/* line 142, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .black {
+  display: none;
+}
+
+/* line 145, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .colour,
+.client:hover .description {
+  display: block;
+}
+
+/* line 149, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .description {
+  position: absolute;
+  bottom: 100%;
+  left: -200px;
+  right: -200px;
+  text-align: center;
+}
+
+/* line 157, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .popout {
+  background-color: #333645;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.875rem;
+  max-width: 260px;
+  margin: 0 auto 50px;
+}
+
+/* line 164, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .popout .arrow-down {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -36px;
+  width: 0;
+  height: 0;
+  border-left: 36px solid transparent;
+  border-right: 36px solid transparent;
+  border-top: 35px solid #333645;
+}
+
+/* line 175, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .popout h3 {
+  position: relative;
+  font-size: 1.125rem;
+  color: #fff;
+  padding-bottom: 17px;
+  margin: 0 0 11px;
+}
+
+/* line 181, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .popout h3 span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 28px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+}
+
+/* line 194, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.client:hover .popout p {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  margin-bottom: 0;
+}
+
+/* line 205, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partners {
+  display: none;
+  height: 88px;
+  padding: 50px 0;
+  background-color: white;
+}
+
+/* line 212, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner-list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  padding-top: 25px;
+}
+
+/* line 218, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner {
+  position: relative;
+  padding: 0 20px;
+}
+
+/* line 221, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner img {
+  max-height: 45.109px;
+  vertical-align: middle;
+}
+
+/* line 225, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner .colour {
+  display: none;
+}
+
+/* line 229, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner:hover {
+  cursor: pointer;
+}
+
+/* line 231, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner:hover .black {
+  display: none;
+}
+
+/* line 234, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.partner:hover .colour,
+.partner:hover .description {
+  display: block;
+}
+
+/* line 4, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.container {
+  display: flex;
+  margin: 0 15px;
+}
+
+/* line 7, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.container img:hover {
+  cursor: pointer;
+}
+
+/* line 11, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection {
+  display: flex;
+  justify-content: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+/* line 17, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection img:hover {
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+/* line 23, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection .support-btn-li :hover {
+  background-color: #2a6ec6;
+  border-color: #2665b5;
+  cursor: pointer;
+}
+
+/* line 30, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection .contact-btn-li .contact-btn:hover {
+  background-color: #84858f;
+  border-color: #797a85;
+  cursor: pointer;
+}
+
+/* line 37, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection .menu-btn-li :hover {
+  background-color: #22242e;
+  border-color: #191a22;
+  cursor: pointer;
+}
+
+/* line 42, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.selection .menu-btn-li .burger:hover {
+  background-color: white;
+}
+
+/* line 51, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+#myHeader {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+/* line 58, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.main-pic {
+  margin-top: 110px;
+}
+
+/* line 67, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 350px;
+  height: 100%;
+  background: #333645;
+  overflow: auto;
+}
+
+/* line 77, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar a {
+  height: 16px;
+  width: 310px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 86, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 89, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-flex ul {
+  flex-direction: column;
+}
+
+/* line 91, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-flex ul li {
+  flex-direction: column;
+}
+
+/* line 96, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.training, .our-company, .our-work, .our-knowledge {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+/* line 100, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.training:hover .highlight {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 101, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.our-company:hover .highlight {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 102, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.our-work:hover .highlight {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 103, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.our-knowledge:hover .highlight {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 105, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.menu a {
+  font-size: 0.875rem;
+  height: 20px;
+  padding: 15px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 113, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.menu a::before {
+  content: "\00BB";
+  padding-right: 15px;
+}
+
+/* line 118, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.menu li {
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+/* line 123, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-class {
+  position: absolute;
+  right: 275px;
+  width: 100%;
+}
+
+/* line 133, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.disable {
+  position: absolute;
+  z-index: 1000;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(54, 53, 53, 0.281);
+}
+
+/* line 145, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar-two {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 275px;
+  height: 100%;
+  background: #333645;
+  overflow: auto;
+}
+
+/* line 155, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar-two a {
+  height: 16px;
+  width: 216px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 164, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar {
+  width: 216px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 172, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar li {
+  height: 42px;
+  width: 216px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  justify-content: center;
+}
+
+/* line 181, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-btn {
+  display: flex;
+  flex-direction: column;
+  height: 73px;
+  padding: 19px 0 18px;
+  text-transform: uppercase;
+  outline: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* line 194, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-btn small {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  margin: 11px 0 8px;
+}
+
+/* line 199, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-btn p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* line 208, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-btn-top {
+  margin-top: 20px;
+}
+
+/* line 211, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-contact {
+  height: 64px;
+  text-transform: uppercase;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* line 219, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-contact :hover {
+  cursor: pointer;
+}
+
+/* line 220, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb-contact a {
+  padding: 24px 0;
+  font-size: 1.125rem;
+}
+
+/* line 226, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar-sm {
+  text-align: center;
+  padding: 21px;
+}
+
+/* line 230, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar-sm :hover {
+  cursor: pointer;
+}
+
+/* line 234, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sb a {
+  padding: 20px;
+}
+
+/* line 238, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.sidebar-vis-two {
+  display: block;
+}
+
+/* line 242, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.highlight:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 243, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-wd:hover .highlight-wd {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 244, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-is:hover .highlight-is {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 245, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-ts:hover .highlight-ts {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 246, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-bs:hover .highlight-bs {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 247, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-dm:hover .highlight-dm {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 248, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.side-bar-cs:hover .highlight-cs {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* line 254, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.cookie {
+  position: fixed;
+  bottom: 0;
+  z-index: 100000;
+  height: 60px;
+  width: 100%;
+  background-color: #22242e;
+  color: #fff;
+}
+
+/* line 262, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.cookie .h1 {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+/* line 267, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.btn-holder {
+  position: absolute;
+  top: 5px;
+  right: 100px;
+}
+
+/* line 272, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.accept-btn,
+.decline-btn {
+  width: 150px;
+  margin-right: 20px;
+}
+
+/* line 277, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.cookie-invis {
+  display: none;
+}
+
+/* line 4, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+}
+
+/* line 12, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section .block {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 0.3125rem 2.1875rem rgba(0, 0, 0, 0.1);
+}
+
+/* line 21, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 26, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section h2 {
+  font-size: 1.125rem;
+  padding-bottom: 10px;
+  margin: 0 0 11px;
+  letter-spacing: .4px;
+  font-weight: normal;
+}
+
+/* line 33, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section h2 ::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: black;
+  color: black;
+  margin: auto;
+  width: 28px;
+  height: 3px;
+}
+
+/* line 45, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.line {
+  content: '';
+  display: block;
+  background-color: black;
+  color: black;
+  margin: auto;
+  width: 28px;
+  height: 3px;
+}
+
+/* line 55, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section p {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  padding: 0 15px;
+}
+
+/* line 63, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section .fs-btn {
+  display: inline-block;
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+}
+
+/* line 77, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.first-section :hover .line {
+  background-color: white;
+}
+
+/* line 82, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.wd-block,
+.it-block,
+.ts-block,
+.bs-block,
+.dm-block,
+.cs-block {
+  max-width: 720px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 30px;
+  color: black;
+}
+
+/* line 99, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.wd-block .icon,
+.wd-block .fs-btn {
+  background-color: #926fb1;
+  color: white;
+}
+
+/* line 104, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.wd-block:hover {
+  background-color: #926fb1;
+}
+
+/* line 107, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.wd-block:hover p,
+.wd-block:hover h2 {
+  color: white;
+}
+
+/* line 112, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.wd-block:hover .icon,
+.wd-block:hover .fs-btn,
+.wd-block:hover .fas {
+  background-color: white;
+  color: #926fb1;
+}
+
+/* line 123, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.it-block .icon,
+.it-block .fs-btn {
+  background-color: #4183d7;
+  color: white;
+}
+
+/* line 128, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.it-block:hover {
+  background-color: #4183d7;
+}
+
+/* line 131, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.it-block:hover p,
+.it-block:hover h2 {
+  color: white;
+}
+
+/* line 136, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.it-block:hover .icon,
+.it-block:hover .fs-btn,
+.it-block:hover .fas {
+  background-color: white;
+  color: #4183d7;
+}
+
+/* line 147, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.ts-block .icon,
+.ts-block .fs-btn {
+  background-color: #d64541;
+  color: white;
+}
+
+/* line 152, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.ts-block:hover {
+  background-color: #d64541;
+}
+
+/* line 155, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.ts-block:hover p,
+.ts-block:hover h2 {
+  color: white;
+}
+
+/* line 160, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.ts-block:hover .icon,
+.ts-block:hover .fs-btn,
+.ts-block:hover .fas {
+  background-color: white;
+  color: #d64541;
+}
+
+/* line 171, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bs-block .icon,
+.bs-block .fs-btn {
+  background-color: #67809f;
+  color: white;
+}
+
+/* line 176, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bs-block:hover {
+  background-color: #67809f;
+}
+
+/* line 179, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bs-block:hover p,
+.bs-block:hover h2 {
+  color: white;
+}
+
+/* line 184, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bs-block:hover .icon,
+.bs-block:hover .fs-btn,
+.bs-block:hover .fas {
+  background-color: white;
+  color: #67809f;
+}
+
+/* line 195, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.dm-block .icon,
+.dm-block .fs-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* line 200, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.dm-block:hover {
+  background-color: #2ecc71;
+}
+
+/* line 203, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.dm-block:hover p,
+.dm-block:hover h2 {
+  color: white;
+}
+
+/* line 208, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.dm-block:hover .icon,
+.dm-block:hover .fs-btn,
+.dm-block:hover .fas {
+  background-color: white;
+  color: #2ecc71;
+}
+
+/* line 219, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.cs-block .icon,
+.cs-block .fs-btn {
+  background-color: #f62459;
+  color: white;
+}
+
+/* line 224, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.cs-block:hover {
+  background-color: #f62459;
+}
+
+/* line 227, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.cs-block:hover p,
+.cs-block:hover h2 {
+  color: white;
+}
+
+/* line 232, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.cs-block:hover .icon,
+.cs-block:hover .fs-btn,
+.cs-block:hover .fas {
+  background-color: white;
+  color: #f62459;
+}
+
+/* line 245, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-bar div {
+  display: block;
+  position: relative;
+  color: #333645;
+  height: 104px;
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+/* line 253, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-bar div h2 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-top: 40px;
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* line 262, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-bar div ::after {
+  content: '';
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+  height: 5px;
+  width: 70.33px;
+}
+
+/* line 275, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-bg {
+  padding: 50px 15px;
+}
+
+/* line 279, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bar {
+  width: 100%;
+}
+
+/* line 283, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.img-container {
+  display: flex;
+}
+
+/* line 287, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.article-section .img {
+  flex-grow: 1;
+  width: 100%;
+  height: auto;
+}
+
+/* line 293, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-container {
+  display: block;
+  border-radius: 0 0 3px 3px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 30px;
+}
+
+/* line 301, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-container .btn {
+  background-color: #4183d7;
+  color: white;
+  border: 1px solid transparent;
+}
+
+/* line 308, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.art-box {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 314, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.article-tooltip {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: #fff;
+  background-color: #333645;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  line-height: 1.438rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* line 328, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333645;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  max-width: 130px;
+  max-height: 50px;
+  margin: 0 auto 50px;
+  z-index: 2;
+  top: -49px;
+  right: 1px;
+  text-align: center;
+  overflow: visible;
+}
+
+/* line 344, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.tooltip .mini-arrow-down {
+  display: none;
+  position: absolute;
+  bottom: -6px;
+  left: 93%;
+  margin-left: -36px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333645;
+}
+
+/* line 360, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.article-tooltip:hover + .tooltip,
+.article-tooltip:hover + .tooltip .mini-arrow-down {
+  display: block;
+}
+
+/* line 366, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.careers-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 370, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.careers-block .article-tooltip,
+.careers-block .btn {
+  background-color: #4183d7;
+}
+
+/* line 375, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.careers-block .btn:hover {
+  background-color: #2a6ec6;
+  border-color: #2665b5;
+  cursor: pointer;
+}
+
+/* line 381, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.careers-block .bot-art-sec a {
+  color: #4183d7;
+}
+
+/* line 386, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.insights-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 390, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.insights-block .article-tooltip,
+.insights-block .btn {
+  background-color: #67809f;
+}
+
+/* line 395, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.insights-block .btn:hover {
+  background-color: #566c88;
+  border-color: #4e627b;
+  cursor: pointer;
+}
+
+/* line 401, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.insights-block .bot-art-sec a {
+  color: #67809f;
+}
+
+/* line 406, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.news-block {
+  position: relative;
+}
+
+/* line 410, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.news-block .tooltip .mini-arrow-down {
+  left: 100%;
+}
+
+/* line 415, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.news-block .article-tooltip,
+.news-block .btn {
+  background-color: #926fb1;
+}
+
+/* line 420, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.news-block .btn:hover {
+  background-color: #7e57a0;
+  border-color: #735093;
+  cursor: pointer;
+}
+
+/* line 426, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.news-block .bot-art-sec a {
+  color: #926fb1;
+}
+
+/* line 431, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bot-art-sec h3 {
+  margin: 0px;
+}
+
+/* line 434, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bot-art-sec h3 a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 439, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bot-art-sec h3 :hover {
+  text-decoration: underline;
+}
+
+/* line 444, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.bot-art-sec p {
+  line-height: 1.375rem;
+  font-size: 0.8125rem;
+  margin-bottom: 25px;
+  color: #666;
+  letter-spacing: .4px;
+}
+
+/* line 452, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.posted-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  display: flex;
+}
+
+/* line 458, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.posted-section img {
+  margin: 0 20px 0 15px;
+  border-radius: 50%;
+}
+
+/* line 463, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.posted-section .posted-p-bold {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333645;
+}
+
+/* line 470, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_card.scss */
+.posted-section .posted-p-date {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #666;
+}
+
+/* line 1, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer {
+  background-color: #333645;
+  color: #fff;
+  padding-top: 47px;
+  padding-bottom: 11px;
+}
+
+/* line 6, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 10, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
+}
+
+/* line 18, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer p {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* line 24, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* line 27, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+footer .sitemap {
+  font-size: 13px;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.footer-container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* line 36, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.about {
+  margin-top: 30px;
+}
+
+/* line 39, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.about a {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+}
+
+/* line 44, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.website,
+.social {
+  margin-top: 30px;
+}
+
+/* line 49, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-container {
+  display: flex;
+  margin: 30px 15px 0 0;
+  height: 170px;
+  flex-wrap: wrap;
+}
+
+/* line 54, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-container .social-box {
+  min-width: 50%;
+}
+
+/* line 57, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-container .facebook,
+.social-container .twitter,
+.social-container .linkedin {
+  content: '';
+  display: block;
+  min-width: 50px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  margin: 0 15px;
+}
+
+/* line 69, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-container .facebook,
+.social-container .linkedin {
+  margin-left: 0;
+}
+
+/* line 73, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-container .twitter {
+  margin-right: 0;
+}
+
+/* line 78, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-box {
+  position: relative;
+}
+
+/* line 80, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.social-box .fab {
+  transform: scale(1.5);
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+
+/* line 88, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.soc-box-twit .fab {
+  left: 49%;
+}
+
+/* line 94, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.soc-box-fb :hover {
+  background-color: #3B5998;
+}
+
+/* line 99, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.soc-box-twit :hover {
+  background-color: #00aced;
+}
+
+/* line 104, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_footer.scss */
+.soc-box-link :hover {
+  background-color: #0077B5;
+}
+
+/* line 4, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar-ul {
+  display: flex;
+  height: 99px;
+  max-width: 940px;
+  margin: 0 auto;
+  flex-grow: 1;
+  border-left-color: rgba(255, 255, 255, 0.1);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-inline-start: 0;
+  position: relative;
+}
+
+/* line 21, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.web,
+.ts,
+.bs,
+.cs,
+.dm,
+.it {
+  display: flex;
+  width: 16.6666%;
+  background-color: #333645;
+  color: white;
+  padding: 19px 0 18px;
+  text-align: center;
+  border-left-color: rgba(0, 0, 0, 0.25);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-right-style: solid;
+  border-right-width: 1px;
+  flex-grow: 1;
+}
+
+/* line 40, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.web small,
+.ts small,
+.bs small,
+.cs small,
+.dm small,
+.it small {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+/* line 44, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.web p,
+.ts p,
+.bs p,
+.cs p,
+.dm p,
+.it p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* line 55, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar li:not(:first-child) {
+  margin-left: 20px;
+}
+
+/* line 58, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.wd-bar li,
+.it-bar li,
+.ts-bar li,
+.bs-bar li,
+.dm-bar li,
+.cs-bar li {
+  align-items: center;
+  color: white;
+}
+
+/* line 66, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.wd-bar li a,
+.it-bar li a,
+.ts-bar li a,
+.bs-bar li a,
+.dm-bar li a,
+.cs-bar li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 71, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .nav-btn:hover {
+  cursor: pointer;
+}
+
+/* line 8, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .nav-btn:hover .fa-code,
+.navbar .nav-btn:hover .fa-desktop,
+.navbar .nav-btn:hover .fa-phone-alt,
+.navbar .nav-btn:hover .fa-th,
+.navbar .nav-btn:hover .fa-signal,
+.navbar .nav-btn:hover .fa-shield-alt {
+  color: white;
+}
+
+/* line 17, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .nav-btn:hover .bar {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  top: 99px;
+  left: 0%;
+  margin: auto;
+  height: 45px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .nav-btn:hover ul::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 45px;
+  right: 100%;
+}
+
+/* line 41, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .nav-btn:hover ul::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 45px;
+  left: 100%;
+}
+
+/* line 75, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .web-btn:hover {
+  background-color: #926fb1;
+}
+
+/* line 59, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .web-btn:hover .wd-bar {
+  background-color: #79539a;
+}
+
+/* line 65, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .web-btn:hover ul::before {
+  background-color: #79539a;
+}
+
+/* line 71, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .web-btn:hover ul::after {
+  background-color: #79539a;
+}
+
+/* line 79, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .it-btn:hover {
+  background-color: #4183d7;
+}
+
+/* line 81, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .it-btn:hover .it-bar {
+  background-color: #286abd;
+}
+
+/* line 87, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .it-btn:hover ul::before {
+  background-color: #286abd;
+}
+
+/* line 93, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .it-btn:hover ul::after {
+  background-color: #286abd;
+}
+
+/* line 83, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .ts-btn:hover {
+  background-color: #d64541;
+}
+
+/* line 103, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .ts-btn:hover .ts-bar {
+  background-color: #bc2c28;
+}
+
+/* line 109, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .ts-btn:hover ul::before {
+  background-color: #bc2c28;
+}
+
+/* line 115, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .ts-btn:hover ul::after {
+  background-color: #bc2c28;
+}
+
+/* line 87, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .bs-btn:hover {
+  background-color: #67809f;
+}
+
+/* line 126, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .bs-btn:hover .bs-bar {
+  background-color: #526781;
+}
+
+/* line 132, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .bs-btn:hover ul::before {
+  background-color: #526781;
+}
+
+/* line 138, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .bs-btn:hover ul::after {
+  background-color: #526781;
+}
+
+/* line 91, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .dm-btn:hover {
+  background-color: #2ecc71;
+}
+
+/* line 148, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .dm-btn:hover .dm-bar {
+  background-color: #25a25a;
+}
+
+/* line 154, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .dm-btn:hover ul::before {
+  background-color: #25a25a;
+}
+
+/* line 160, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .dm-btn:hover ul::after {
+  background-color: #25a25a;
+}
+
+/* line 95, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_nav.scss */
+.navbar .cs-btn:hover {
+  background-color: #f62459;
+}
+
+/* line 170, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .cs-btn:hover .cs-bar {
+  background-color: #de093f;
+}
+
+/* line 176, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .cs-btn:hover ul::before {
+  background-color: #de093f;
+}
+
+/* line 182, ../../../../../../xampp/htdocs/test/Reflection/scss/utilities/_mixins.scss */
+.navbar .cs-btn:hover ul::after {
+  background-color: #de093f;
+}
+
+/* line 2, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.btn {
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+}
+
+/* line 12, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.support-btn,
+.contact-btn,
+.menu-btn,
+.cookie-btn {
+  vertical-align: center;
+  border: 1px solid transparent;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 1.125rem;
+  line-height: 46px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 27, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+button:focus {
+  outline: 0;
+}
+
+/* line 31, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 35, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.support-btn,
+.contact-btn {
+  display: none;
+}
+
+/* line 40, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.support-btn {
+  height: 56px;
+  width: 145px;
+  background-color: #4183d7;
+  border-color: #4183d7;
+}
+
+/* line 46, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.contact-btn-li a {
+  text-decoration: none;
+}
+
+/* line 50, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.contact-btn {
+  height: 56px;
+  width: 155px;
+  background-color: #999aa2;
+  border-color: #999aa2;
+  margin-left: 20px;
+}
+
+/* line 58, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn {
+  height: 56px;
+  width: 63px;
+  background-color: #333645;
+  border-color: #333645;
+  margin-left: 20px;
+  font-size: .8rem;
+  border: none;
+}
+
+/* line 67, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn .burger-box {
+  width: 33px;
+  height: 19px;
+  position: relative;
+}
+
+/* line 72, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn .burger-box .burger {
+  position: absolute;
+  top: -20px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 33px;
+  height: 3px;
+  content: '';
+  background-color: white;
+  transition: ease 1s;
+}
+
+/* line 85, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn .burger-box .middle {
+  position: absolute;
+  top: -10px;
+  display: block;
+  width: 33px;
+  height: 3px;
+  content: '';
+  background-color: white;
+}
+
+/* line 97, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn .burger-box .bottom {
+  position: absolute;
+  top: 0px;
+  display: block;
+  width: 33px;
+  height: 3px;
+  content: '';
+  background-color: white;
+}
+
+/* line 109, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.menu-btn .burger-box .burger-menu {
+  position: absolute;
+  right: -17px;
+  top: -5px;
+  height: 0px;
+}
+
+/* line 118, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -14px;
+  left: -16px;
+}
+
+/* line 127, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+/* line 132, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: -14px;
+  left: -16px;
+}
+
+/* line 140, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* line 2, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.icon {
+  background-color: black;
+  margin: auto;
+  content: '';
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 17px;
+}
+
+/* line 14, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.phone {
+  width: 32px;
+  max-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  transform: scale(0.8);
+}
+
+/* line 25, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-mouse,
+.fa-paper-plane {
+  padding-right: 20px;
+  margin-right: 10px;
+  transform: scale(1.1);
+  width: 5px;
+}
+
+/* line 34, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.navbar .fas {
+  padding-bottom: 10px;
+}
+
+/* line 37, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-code {
+  color: #79539a;
+}
+
+/* line 40, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-desktop {
+  color: #286abd;
+}
+
+/* line 43, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-phone-alt {
+  color: #bc2c28;
+}
+
+/* line 46, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-th {
+  color: #526781;
+}
+
+/* line 49, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-signal {
+  color: #25a25a;
+}
+
+/* line 52, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-shield-alt {
+  color: #de093f;
+}
+
+/* line 57, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.fa-arrow-right {
+  color: white;
+  margin-left: 10px;
+  transform: scale(0.9);
+}
+
+/* line 64, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
+.icon .fas {
+  transform: scale(1.5);
+  color: white;
+  margin-top: 37%;
+  margin-left: 2px;
+}
+
+/* line 2, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.logo {
+  display: block;
+  margin: 20px 0;
+  min-width: 100px;
+  min-height: 52px;
+  object-fit: contain;
+}
+
+/* line 11, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.carousel {
+  width: 100%;
+  height: 774px;
+  color: white;
+  line-height: 2.25rem;
+  text-decoration: none;
+}
+
+/* line 21, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.carousel h1 {
+  margin-top: 0px;
+  font-size: 48px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 29, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.carousel p {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* line 34, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.carousel button {
+  margin-top: 25px;
+  height: auto;
+  border: 1px solid transparent;
+  color: white;
+  line-height: 50px;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  border-radius: 3px;
+  font-family: 'poppins', sans-serif;
+  letter-spacing: .4px;
+}
+
+/* line 49, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.web-design {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-3wAI.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 53, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.web-design button {
+  background-color: #926fb1;
+}
+
+/* line 56, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.web-design figcaption button:hover {
+  background-color: #79539a;
+}
+
+/* line 60, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.it-support {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-57sJ.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 64, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.it-support button {
+  background-color: #4183d7;
+}
+
+/* line 67, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.it-support figcaption button:hover {
+  background-color: #286abd;
+}
+
+/* line 71, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.telecoms-services {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-5yqm.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 75, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.telecoms-services button {
+  background-color: #d64541;
+}
+
+/* line 78, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.telecoms-services figcaption button:hover {
+  background-color: #bc2c28;
+}
+
+/* line 82, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.bespoke-software {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-sqvx.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 86, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.bespoke-software button {
+  background-color: #67809f;
+}
+
+/* line 89, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.bespoke-software figcaption button:hover {
+  background-color: #526781;
+}
+
+/* line 93, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.digital-marketing {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-JQsO.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 97, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.digital-marketing button {
+  background-color: #2ecc71;
+}
+
+/* line 100, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.digital-marketing figcaption button:hover {
+  background-color: #25a25a;
+}
+
+/* line 104, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.cyber-security {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-lQs1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 108, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.cyber-security button {
+  background-color: #f62459;
+}
+
+/* line 111, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.cyber-security figcaption button:hover {
+  background-color: #de093f;
+}
+
+/* line 117, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.img-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 3px 3px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+/* line 126, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.img-container img {
+  transform-origin: 50% 50%;
+  transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* line 131, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_images.scss */
+.photo-overlay {
+  opacity: 0;
+  transition: opacity;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@supports (-ms-ime-align: auto) {
+  /* line 3, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .support-btn {
+    width: 150px;
+  }
+  /* line 6, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .menu-btn {
+    position: relative;
+  }
+  /* line 9, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .burger-box {
+    position: absolute;
+    top: 24px;
+  }
+}
+
+@-moz-document url-prefix('') {
+  /* line 19, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .burger-box {
+    top: 10px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  /* line 27, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .container {
+    margin: 0 15px;
+  }
+  /* line 30, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .logo {
+    min-height: 25px;
+    height: auto;
+  }
+  /* line 35, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selection ul li {
+    margin-top: 28px;
+  }
+  /* line 38, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selection .support-btn {
+    width: 150px;
+  }
+  /* line 41, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selection .menu-btn {
+    position: relative;
+  }
+  /* line 44, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selection .burger-box {
+    position: absolute;
+    top: 24px;
+    right: 15px;
+  }
+  /* line 49, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selection .burger-menu {
+    margin-right: 15px;
+  }
+  /* line 53, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .menu-btn {
+    min-width: 63px;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  /* line 60, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .selector:not(*:root),
+  .burger-box {
+    top: -3px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 68, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .phone {
+    display: none;
+  }
+  /* line 71, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 76, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block {
+    max-width: 283px;
+  }
+  /* line 79, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block:nth-child(odd) {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  /* line 83, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block:nth-child(even) {
+    margin-right: auto;
+    margin-left: 15px;
+  }
+  /* line 87, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section {
+    padding: 50px 0;
+  }
+  /* line 89, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section .ss-container {
+    padding: 0 15px;
+  }
+  /* line 93, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bar div {
+    width: 720px;
+    margin: 0 auto;
+  }
+  /* line 97, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bg {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+  }
+  /* line 102, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 106, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section span {
+    margin: 0;
+  }
+  /* line 110, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block,
+  .insights-block {
+    width: 375px;
+    max-width: 345px;
+  }
+  /* line 114, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container,
+  .insights-block .art-container {
+    height: 309px;
+  }
+  /* line 116, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container h3,
+  .insights-block .art-container h3 {
+    font-size: 16px;
+    height: 48px;
+    margin-bottom: 15px;
+  }
+  /* line 122, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container .posted-section p,
+  .insights-block .art-container .posted-section p {
+    font-size: 14px;
+  }
+  /* line 128, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .news-block {
+    display: none;
+  }
+  /* line 131, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients {
+    display: block;
+  }
+  /* line 134, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 720px;
+  }
+  /* line 141, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  footer {
+    padding-bottom: 43px;
+  }
+  /* line 144, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 438px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 151, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container .contact,
+  .footer-container .about,
+  .footer-container .website,
+  .footer-container .social {
+    min-width: 50%;
+  }
+  /* line 158, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container .about {
+    margin-top: 0;
+  }
+  /* line 162, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners {
+    display: block;
+    height: 88px;
+    padding: 50px 0;
+  }
+  /* line 167, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 720px;
+  }
+}
+
+@media (min-width: 990px) {
+  /* line 178, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .container {
+    max-width: 940px;
+  }
+  /* line 181, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .support-btn,
+  .contact-btn {
+    display: block;
+  }
+  /* line 185, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .navbar {
+    display: block;
+  }
+  /* line 187, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .navbar .wd-bar,
+  .navbar .it-bar,
+  .navbar .ts-bar,
+  .navbar .bs-bar,
+  .navbar .dm-bar,
+  .navbar .cs-bar {
+    display: none;
+    text-transform: uppercase;
+  }
+  /* line 197, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  ul::before {
+    width: calc((100vw - 958px) /2);
+    overflow: hidden;
+  }
+  /* line 201, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  ul::after {
+    width: calc((100vw - 958px) /2);
+    overflow: hidden;
+  }
+  /* line 205, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .sidebar-vis {
+    display: block;
+  }
+  /* line 208, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .sidebar-vis-two {
+    display: none;
+  }
+  /* line 211, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .sb-class {
+    right: 350px;
+  }
+  /* line 214, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  figcaption {
+    width: 940px;
+    text-align: left;
+    padding-top: 235px;
+    margin: 0 auto;
+  }
+  /* line 220, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .first-section {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 225, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block {
+    max-width: 385px;
+  }
+  /* line 228, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section {
+    background-image: url(../img/branded.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+  }
+  /* line 233, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section .ss-container {
+    max-width: 940px;
+  }
+  /* line 237, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bar div {
+    width: 940px;
+    margin: 0 auto;
+  }
+  /* line 241, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bg {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+  }
+  /* line 246, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 250, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section span {
+    margin: 0;
+  }
+  /* line 254, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .photo-overlay:hover {
+    opacity: 0.8;
+  }
+  /* line 257, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .img-container:hover img {
+    transform: scale(1.1);
+  }
+  /* line 260, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block,
+  .insights-block {
+    width: 455px;
+    max-width: 455px;
+  }
+  /* line 265, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .bot-art-sec p,
+  .insights-block .bot-art-sec p {
+    height: 66px;
+  }
+  /* line 270, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients {
+    height: 162.83px;
+  }
+  /* line 273, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients-container {
+    width: 940px;
+  }
+  /* line 277, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .client img {
+    max-height: 62.83px;
+  }
+  /* line 282, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container {
+    width: 940px;
+  }
+  /* line 285, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners {
+    height: 110px;
+  }
+  /* line 288, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners-container {
+    width: 940px;
+  }
+  /* line 292, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partner img {
+    max-height: 62.83px;
+  }
+}
+
+@media (min-width: 1255px) {
+  /* line 301, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .container {
+    max-width: 1200px;
+  }
+  /* line 304, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .navbar-ul {
+    max-width: 1200px;
+  }
+  /* line 307, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .bar {
+    width: 1202px;
+  }
+  /* line 310, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  ul::before {
+    width: calc((100vw - 1217px) / 2);
+  }
+  /* line 313, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  ul::after {
+    width: calc((100vw - 1217px) / 2);
+  }
+  /* line 316, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  figcaption {
+    width: 1170px;
+  }
+  /* line 319, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .first-section {
+    max-width: 1255px;
+  }
+  /* line 322, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .wd-block,
+  .it-block {
+    max-width: 508px;
+  }
+  /* line 326, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .ts-block,
+  .bs-block,
+  .dm-block,
+  .cs-block {
+    max-width: 270px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 334, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block:nth-child(4) {
+    margin-right: 15px;
+  }
+  /* line 337, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .block:nth-child(5) {
+    margin-left: 15px;
+  }
+  /* line 341, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section .ss-container {
+    max-width: 1170px;
+  }
+  /* line 343, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .second-section .ss-container h1,
+  .second-section .ss-container p {
+    max-width: 600px;
+  }
+  /* line 349, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bar div {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  /* line 353, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .art-bg {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+  }
+  /* line 358, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 362, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .article-section span {
+    margin: 0;
+  }
+  /* line 366, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block,
+  .insights-block,
+  .news-block {
+    width: 370px;
+    max-width: 370px;
+  }
+  /* line 371, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container,
+  .insights-block .art-container,
+  .news-block .art-container {
+    height: 309px;
+  }
+  /* line 373, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container h3,
+  .insights-block .art-container h3,
+  .news-block .art-container h3 {
+    font-size: 16px;
+    height: 48px;
+    margin-bottom: 15px;
+  }
+  /* line 379, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .careers-block .art-container .posted-section p,
+  .insights-block .art-container .posted-section p,
+  .news-block .art-container .posted-section p {
+    font-size: 14px;
+  }
+  /* line 385, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .news-block {
+    display: block;
+  }
+  /* line 388, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients {
+    height: 170px;
+  }
+  /* line 391, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .clients-container {
+    width: 1170px;
+  }
+  /* line 395, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .client img {
+    max-height: 70px;
+  }
+  /* line 400, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  footer {
+    height: 219px;
+  }
+  /* line 403, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container {
+    width: 1170px;
+    height: 219px;
+  }
+  /* line 406, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container .contact,
+  .footer-container .about,
+  .footer-container .website,
+  .footer-container .social {
+    min-width: 25%;
+    max-width: 200px;
+  }
+  /* line 413, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .footer-container .website,
+  .footer-container .social {
+    margin-top: 0;
+  }
+  /* line 419, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .social-box:nth-child(odd) .fab {
+    left: 40%;
+  }
+  /* line 423, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners {
+    height: 88px;
+  }
+  /* line 426, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partners-container {
+    width: 1170px;
+  }
+  /* line 430, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partner img {
+    max-height: 70px;
+  }
+  /* line 435, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_media-queries.scss */
+  .partner-list {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=nmcss.css.map */
