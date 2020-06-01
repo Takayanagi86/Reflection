@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/jquery-banner.css">
     <link rel="stylesheet" type="text/css" href="css/nmcss.css">
 </head>
@@ -42,10 +43,12 @@
     include(__DIR__ . '/inc/cookie.php');
     ?>
     <!-- Cookie -->
+    <script src="js/contact.js"></script>
     <script src="js/cookie.js"></script>
     <script src="js/sidebar.js"></script>
     <script src="js/header.js"></script>
     <script src="https://kit.fontawesome.com/242368e4d2.js" crossorigin="anonymous"></script>
     <script src="//code.jquery.com/jquery.min.js"></script>
+</div>
 </body>
 </html>

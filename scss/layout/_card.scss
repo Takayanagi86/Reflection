@@ -473,3 +473,29 @@
     color: #666;
   }
 }
+
+////////////////////////////////////////////////////
+//Blocks for the Contact page
+////////////////////////////////////////////////////
+
+.place-info {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 247px;
+  text-align: center;
+  color: #333645;
+  font-weight: 400;
+  box-shadow: 0 3px 35px rgba(0,0,0,.1);
+  .icon {
+    background-color: #333645;
+  }
+  .h2 {
+    font-size:18px;
+    line-height:19.8px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size:13px;
+    line-height:22px;
+  }
+}

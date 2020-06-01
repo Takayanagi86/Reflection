@@ -11,16 +11,3 @@ try {
     echo "Unable to Connect";
     exit;
 }
-$stmt = $dbh->prepare("SELECT *
-                       FROM articles 
-                       ORDER BY datePosted
-                       LIMIT 3");
-$stmt->execute();
-
-try {
-$articles = $stmt->fetchAll();
-
-} catch (Exception $e) {
-    echo "Unable to retrieve data";
-    exit;
-}
