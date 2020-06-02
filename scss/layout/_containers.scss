@@ -322,6 +322,9 @@
 .more-info {
     display: none;
 }
+.display {
+    display: block;
+}
 .input-container {
     width: 100%;
     margin-bottom: 10px;
@@ -345,7 +348,17 @@
     margin-top: 10px;
 }
 .submit-btn-container {
+    display: flex;
+    flex-direction: row;
     margin-top: 30px;
+    .status {
+        color: red;
+        margin-left: 20px;
+        padding: 14px 0;
+    }
+    .green {
+        color: green;
+    }
 }
 .location-container {
     display: block;

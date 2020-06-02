@@ -1,3 +1,8 @@
+<!-- contact php -->   
+<?php
+    include(__DIR__ . '/inc/contactPost.php');
+?>
+<!-- contact php -->
 <!DOCTYPE html>
 
 <html>

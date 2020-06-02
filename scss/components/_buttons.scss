@@ -168,3 +168,15 @@ button:hover {
     border-color: #191a22;
   }
 }
+.more-info-btn {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+  .fas {
+    transition: 1s;
+  }
+  .flip {
+    transform: rotate(180deg);
+  }
+}

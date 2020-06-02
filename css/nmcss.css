@@ -840,6 +840,12 @@ figcaption button:hover {
 }
 
 /* line 273, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+form .label:after {
+  content: "*";
+  color: red;
+}
+
+/* line 277, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .telephone, .email-us {
   color: #926fb1;
   cursor: pointer;
@@ -850,33 +856,46 @@ figcaption button:hover {
   text-decoration: none;
 }
 
-/* line 281, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 285, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .telephone:hover, .email-us:hover {
   text-decoration: underline;
 }
 
-/* line 285, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 289, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .email-us {
   font-size: 26px;
 }
 
-/* line 288, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 292, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .more-info-btn {
   margin-bottom: 10px;
 }
 
-/* line 291, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 295, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .info-label {
   height: 30px;
   padding-bottom: 25px;
 }
 
-/* line 295, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 299, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.more-info {
+  margin: 15px 0 15px 10px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+}
+
+/* line 304, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.more-info .label {
+  margin: 30px 0;
+}
+
+/* line 308, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox {
   margin-right: 20px;
 }
 
-/* line 297, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 310, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox .fa-check {
   opacity: 0;
   color: white;
@@ -887,12 +906,12 @@ figcaption button:hover {
   text-align: center;
 }
 
-/* line 306, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 319, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox .checked {
   opacity: 1;
 }
 
-/* line 309, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 322, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox .check-btn {
   position: relative;
   content: "";
@@ -902,7 +921,7 @@ figcaption button:hover {
   width: 26px;
 }
 
-/* line 316, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 329, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox .check-btn .check {
   position: absolute;
   opacity: 0;
@@ -914,7 +933,7 @@ figcaption button:hover {
   border-image-width: 0;
 }
 
-/* line 329, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 342, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox-info p {
   margin: 0;
   line-height: 32px;
@@ -924,12 +943,12 @@ figcaption button:hover {
   font-size: 16px;
 }
 
-/* line 337, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 350, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .checkbox-info a {
   color: #333645;
 }
 
-/* line 341, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 354, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .input {
   background-color: #fff;
   background-image: none;
@@ -940,22 +959,27 @@ figcaption button:hover {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-/* line 349, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 362, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .input:focus {
   border-color: #5bc0de;
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(91, 192, 222, 0.6);
 }
 
-/* line 355, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 368, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .map {
   height: 300px;
   width: 100%;
 }
 
-/* line 358, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+/* line 371, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
 .map iframe {
   width: 100%;
+}
+
+/* line 375, ../../../../../../xampp/htdocs/test/Reflection/scss/base/_base.scss */
+.required {
+  border-color: red;
 }
 
 /* line 4, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
@@ -1378,43 +1402,62 @@ figcaption button:hover {
 }
 
 /* line 325, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.display {
+  display: block;
+}
+
+/* line 328, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .input-container {
   width: 100%;
   margin-bottom: 10px;
 }
 
-/* line 328, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 331, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .input-container .input {
   width: 100%;
   height: 35px;
   padding: 5px 0;
 }
 
-/* line 334, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 337, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .message-container {
   width: 100%;
 }
 
-/* line 336, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 339, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .message-container .input {
   width: 100%;
   height: 88px;
   padding: 5px 0;
 }
 
-/* line 342, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 345, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .checkbox-container {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
 }
 
-/* line 347, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 350, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .submit-btn-container {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
 }
 
-/* line 350, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 354, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.submit-btn-container .status {
+  color: red;
+  margin-left: 20px;
+  padding: 14px 0;
+}
+
+/* line 359, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+.submit-btn-container .green {
+  color: green;
+}
+
+/* line 363, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .location-container {
   display: block;
   flex-direction: row;
@@ -1423,29 +1466,29 @@ figcaption button:hover {
   margin: 50px auto;
 }
 
-/* line 357, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 370, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .place-container {
   height: 609px;
   width: 100%;
 }
 
-/* line 360, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 373, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .place-container:nth-child(1) {
   margin-bottom: 30px;
 }
 
-/* line 363, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 376, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .place-container .place-info {
   padding: 30px;
 }
 
-/* line 367, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 380, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .place-info-container:hover .place-info {
   background-color: #926fb1;
   color: white;
 }
 
-/* line 371, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
+/* line 384, ../../../../../../xampp/htdocs/test/Reflection/scss/layout/_containers.scss */
 .place-info-container:hover .line {
   background-color: white;
   color: white;
@@ -2576,6 +2619,26 @@ button:hover {
 .submit-btn:hover {
   background-color: #22242e;
   border-color: #191a22;
+}
+
+/* line 171, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.more-info-btn {
+  cursor: pointer;
+}
+
+/* line 173, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.more-info-btn:hover {
+  text-decoration: underline;
+}
+
+/* line 176, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.more-info-btn .fas {
+  transition: 1s;
+}
+
+/* line 179, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_buttons.scss */
+.more-info-btn .flip {
+  transform: rotate(180deg);
 }
 
 /* line 2, ../../../../../../xampp/htdocs/test/Reflection/scss/components/_icons.scss */
